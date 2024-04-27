@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    height:100vh;
+    background-color:black;
+}
+
+.header{
+    width:100%;
+    height:90px;
+    display:flex;
+    justify-content:space-evenly;
+    color:white;
+    border-bottom:orange 3px solid;
+}
+
+.header span{
+    margin-left:3px;
+    padding:2px 5px;
+    padding-bottom:3px;
+    color:black;
+    background-color:orange;
+    border-radius:10px;
+}
+
+.logo{
+    height:100%;
+    margin-left:25px;
+    float:left;
+}
+
+.logo > h1{
+    font-weight:bolder;
+    padding: 24px 0px;
+    float:left;
+}
+
+.menu{
+    color:white;
+    list-style-type:none;
+    text-align:center;
+    height:100%;
+}
+
+.menu li{
+    float:left;
+    padding:28px;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.login{
+    height:100%;
+    padding:8px;
+    align-items:center;
+    display:flex;
+    text-align:right;
+    color:black;
+}
+
+.login > h2{
+    margin-top:3px;
+    float:left;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    padding:15px 20px;
+    padding-bottom:14px;
+    background-color:orange;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+
+.main{
+    margin: 50px 0 0 40px;
+    width:1400px;
+    height:1000px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.video-container{
+    margin: -220px 0px 0px 40px;
+    width:100%;
+    height:630px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    row-gap:-50px;
+}
+
+
+.bar{
+    height:60px;
+    width:100%;
+    margin-left:50px;
+    margin-top:-15px;
+}
+
+.bar .alta{
+    height:100%;
+    float:left;
+    padding:8px;
+}
+
+.bar .alta h1{
+    height:100%;
+    float:left;
+    color:white;
+    font-size:1.4em;
+}
+
+.bar .alta img{
+    height:40%;
+    margin:8px 10px;
+}
+
+.bar input{
+    margin-top:3px;
+    margin-left:22px;
+    padding:6px 30px;
+    border:2px solid gray;
+    border-radius:25px;
+    justify-content:space-evenly;
+    width:50%;
+    height:70%;
+    background-color:black;
+    color:white;
+    font-size:1em;
+}
+
+.bar input::placeholder{
+    color:gray;
+}
+
+.video{
+    width:310px;
+    height:250px;
+    color:white;
+}
+
+.video > .thumb{
+    width:100%;
+    height:80%;
+    position:relative;
+}
+
+.video > .thumb > img{
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.video > .thumb > span{
+    position:absolute;
+    transform:translate(-100%, -100%);
+    top:100.1%;
+    left:100%;
+    background-color: rgb(60, 60, 60);
+    color:white;
+    padding:4px 6px;
+    font-size:14px;
+}
+
+.video h2{
+    width:100%;
+    text-align:center;
+    margin:10px 0;
+    font-size:18px;
+}
+
+.video span{
+    font-size:14px;
+}
+
+.video span:nth-of-type(2){
+    font-size:12px;
+}
+
+.video .content{
+    margin-top:-5px;
+    width:100%;
+    text-align:center;
+}
